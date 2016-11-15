@@ -1,0 +1,25 @@
+html
+    head
+        link(href="css/style.css" rel="stylesheet" type="text/css")
+
+    body
+
+        .container
+            form(id="inputs" name='inputs' method='post' action='')
+                p.head My Multiplication Table
+                p.start-row.top Row Start
+                p.end-row.top Row End
+                p.start-col.top Column Start
+                p.end-col.top Column End
+                input(type="text" id="first" value=5 class="required" name="email")
+                input(type="text" id="second" value=10 class="required")
+                input(type="text" id="third" value=5 class="required")
+                input(type="text" id="fourth" value=10 class="required")
+                button(type="submit" value="submit" class="btn") Create Table
+
+            .table
+                .popup Invalid input, numbers only.
+                .popup-range Invalid range, please fix it.
+        script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous")
+        script(src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js")
+        script(src="js/script.js")

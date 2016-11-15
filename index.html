@@ -1,0 +1,27 @@
+
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="container">
+      <form id="inputs" name="inputs" method="post" action="">
+        <p class="head">My Multiplication Table</p>
+        <p class="start-row top">Row Start</p>
+        <p class="end-row top">Row End</p>
+        <p class="start-col top">Column Start</p>
+        <p class="end-col top">Column End</p>
+        <input type="text" id="first" name="first" class="required" value=5 />
+        <input type="text" id="second" name="second" class="required" value=10 />
+        <input type="text" id="third" name="third" class="required" value=5 />
+        <input type="text" id="fourth" name="fourth" class="required" value=10 />
+        <button type="submit" value="submit" class="btn" id="btn">Create Table</button>
+      </form>
+      <div class="table">
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+.container {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid #2ecc71;
+}
+
+#inputs {
+  background: linear-gradient(rgba(46, 204, 113, 0.4), rgba(46, 204, 113, 0.95)), url("https://static.pexels.com/photos/21014/pexels-photo-medium.jpg");
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#inputs p {
+  color: white;
+  text-align: left;
+  margin-left: 7px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+#inputs .head {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#inputs .top {
+  display: inline-block;
+  width: 22%;
+  margin: 0 5px;
+}
+
+#inputs input {
+  margin: 10px 5px;
+  width: 22%;
+  font-size: 15px;
+}
+
+#inputs button {
+  display: block;
+  margin: 0px auto;
+  width: calc(88% + 42px);
+  font-size: 1.1em;
+}
+
+#inputs button:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+.table {
+  width: 100%;
+  background: linear-gradient(rgba(46, 204, 113, 0.4), rgba(46, 204, 113, 0.95));
+}
+
+table {
+  width: 100%;
+  color: white;
+}
+
+table th {
+  border: 1px solid white;
+}
+
+table td:first-child {
+  background: #29b765;
+  color: white;
+}
+
+table td {
+  border: 1px solid white;
+  text-align: center;
+  background: white;
+  color: black;
+  max-width: 10px;
+}
+
+.popup {
+  width: 200px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  margin: 5px auto;
+  display: none;
+}
+
+.popup-range {
+  width: 200px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  margin: 5px auto;
+  display: none;
+}
+
+.display-flex {
+  display: flex;
+}
