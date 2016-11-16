@@ -1,2 +1,2 @@
-# gui-hw6
-Multiplication Table in Javascript
+# gui-hw7
+Multiplication Table in JQuery w/ Validation Plugin
